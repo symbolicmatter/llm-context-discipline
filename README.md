@@ -13,10 +13,10 @@ The goal is predictable context handling without automation or filesystem mutati
 
 ## Core Components
 
-**CONTEXT_ACCESS_RULES.md**
+**[CONTEXT_ACCESS_RULES.md](./CONTEXT_ACCESS_RULES.md)**
 Defines read order, authority rules, and chat–document interaction constraints.
 
-**CONTEXT_INDEX.yml**
+**[CONTEXT_INDEX.yml](./CONTEXT_INDEX.yml)**
 Central registry of documents and their metadata (subject, role, priority, status).
 
 ## Design Principles
@@ -40,11 +40,11 @@ It is platform-agnostic and intentionally minimal.
 
 ## How to Use in a Chat-Based Project
 
-1. Add `CONTEXT_ACCESS_RULES.md` and `CONTEXT_INDEX.yml` to your repository.
+1. Add [`CONTEXT_ACCESS_RULES.md`](./CONTEXT_ACCESS_RULES.md) and [`CONTEXT_INDEX.yml`](./CONTEXT_INDEX.yml) to your repository.
 2. Configure your chat environment with project-level instructions that:
 
-    - Enforce the read order defined in `CONTEXT_ACCESS_RULES.md`
-    - Require loading and applying `CONTEXT_INDEX.yml`
+    - Enforce the read order defined in [`CONTEXT_ACCESS_RULES.md`](./CONTEXT_ACCESS_RULES.md)
+    - Require loading and applying [`CONTEXT_INDEX.yml`](./CONTEXT_INDEX.yml)
     - Define how chat should be treated (exploratory by default)
 
 3. Optionally add authorship constraints such as:
