@@ -1,0 +1,95 @@
+---
+index_version: 1
+authority: canonical
+context_documents:
+  - name: CDE README
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-engineering/refs/heads/main/README.md
+    subject: CDE
+    description: High-level introduction and positioning of Context-Driven Engineering
+    role: core
+    priority: high
+    status: active
+  - name: CDE Contributing Guide
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-engineering/refs/heads/main/CONTRIBUTING.md
+    subject: CDE
+    description: Contribution workflow and collaboration rules
+    role: supporting
+    priority: medium
+    status: active
+  - name: CDE Core Definition
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-engineering/refs/heads/main/docs/CDE.md
+    subject: CDE
+    description: Canonical definition of Context-Driven Engineering
+    role: core
+    priority: high
+    status: active
+  - name: CDE Explained
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-engineering/refs/heads/main/docs/CDE_EXPLAINED.md
+    subject: CDE
+    description: System-level mental model and rationale behind Context-Driven Engineering
+    role: core
+    priority: high
+    status: active
+  - name: CDE Templates
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-engineering/refs/heads/main/docs/CDE_TEMPLATES.md
+    subject: CDE
+    description: Reusable document templates for applying Context-Driven Engineering
+    role: supporting
+    priority: low
+    status: active
+  - name: Object-Centric Design Worldview
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-engineering/refs/heads/main/docs/DESIGN_WORLDVIEW.md
+    subject: CDE
+    description: Example of an explicit design worldview applied within a CDE project
+    role: core
+    priority: medium
+    status: active
+  - name: CDDW README
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/README.md
+    subject: CDDW
+    description: Overview and positioning of the Context-Driven Development Workflow
+    role: core
+    priority: high
+    status: active
+  - name: CDDW Agent Roles
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/AGENT_ROLES.md
+    subject: CDDW
+    description: Definition of agent roles and responsibilities within the Context-Driven Development Workflow
+    role: core
+    priority: high
+    status: active
+  - name: CDDW Workflow Overview
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/WORKFLOW.md
+    subject: CDDW
+    description: Concise operational overview of the Context-Driven Development Workflow
+    role: supporting
+    priority: medium
+    status: active
+  - name: CDDW Consolidation
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/CONSOLIDATION.md
+    subject: CDDW
+    description: Human-led process for reviewing and integrating learning into authoritative context
+    role: supporting
+    priority: high
+    status: active
+  - name: CDDW Contributing Guidelines
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/CONTRIBUTING.md
+    subject: CDDW
+    description: Contribution guidelines for the Context-Driven Development Workflow repository
+    role: supporting
+    priority: medium
+    status: active
+  - name: CDDW Learning Artifacts
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/LEARNINGS.md
+    subject: CDDW
+    description: Required format and constraints for learning artifacts in the Context-Driven Development Workflow
+    role: supporting
+    priority: high
+    status: active
+  - name: CDDW Core Definition
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/docs/CDDW.md
+    subject: CDDW
+    description: Canonical definition and operational model of the Context-Driven Development Workflow
+    role: core
+    priority: high
+    status: active
