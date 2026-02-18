@@ -40,7 +40,7 @@ When the files `CONTEXT_ACCESS_RULES.md` and `CONTEXT_INDEX.yml` are present in 
 
 - Always read and apply `CONTEXT_ACCESS_RULES.md` first.
 - Use `CONTEXT_INDEX.yml` as the sole source of truth for document metadata, authority, and relevance.
-- Interpret all project Markdown documents strictly within the rules defined in these two files.
+- Interpret project Markdown documents within this chat session according to the rules defined in these two files.
 - Do not infer authority, status, or meaning from filenames, folder structure, or document tone alone.
 - Treat chat conversations as exploratory unless insights have been explicitly consolidated into documents listed in `CONTEXT_INDEX.yml`.
 

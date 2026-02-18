@@ -12,6 +12,21 @@ It establishes:
 
 These rules are normative and override default conversational behavior.
 
+## Scope Limitation (Meta-Level Only)
+
+This document governs collaboration between the human context owner and the conversational LLM within this chat environment.
+
+It does **not** define, modify, or constrain:
+
+- The internal design of CDE or CDDW
+- The authority structures used inside software projects
+- Agent behavior in external environments (e.g., IDE-based agents)
+- Any production workflow outside this chat
+
+The authority model defined here applies strictly to conversational interpretation and document loading within this session.
+
+No principles defined in this file apply to CDE/CDDW unless they are explicitly defined within those projects’ own documents.
+
 ## Read Order (Mandatory)
 
 When both files are present:
@@ -37,6 +52,8 @@ The LLM MUST:
 Primary principle:
 
 Written context outlives chat. Chat is exploratory by default.
+
+This principle governs conversational interpretation only and does not prescribe authority structures for external development workflows.
 
 Authority order (highest → lowest):
 
@@ -77,6 +94,7 @@ are used, the LLM should:
 
 ## Design Constraint
 
-This system favors explicit consolidation and predictable interpretation over automation.
+This meta-collaboration system favors explicit consolidation and predictable interpretation over automation.  
+It is intentionally separate from the design and governance of CDE/CDDW.
 
 Changes to this file affect how all other context is interpreted and should be made cautiously.
