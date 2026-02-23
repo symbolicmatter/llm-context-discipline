@@ -93,3 +93,10 @@ context_documents:
     role: core
     priority: high
     status: active
+  - name: CDDW Discovery Guide
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/DISCOVERY_GUIDE.md
+    subject: CDDW
+    description: Operational guidance for discovering and externalizing context when starting new projects with CDE/CDDW
+    role: supporting
+    priority: high
+    status: active
