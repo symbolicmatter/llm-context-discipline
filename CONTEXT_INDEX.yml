@@ -100,3 +100,10 @@ context_documents:
     role: supporting
     priority: high
     status: active
+  - name: CDDW Starter Agent Instructions
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/starter/AGENTS.md
+    subject: CDDW
+    description: Minimal, reusable starter instructions for agent behavior in CDDW-aligned projects
+    role: supporting
+    priority: medium
+    status: active
