@@ -107,3 +107,10 @@ context_documents:
     role: supporting
     priority: medium
     status: active
+  - name: CDDW Backlog
+    url: https://raw.githubusercontent.com/symbolicmatter/context-driven-development-workflow/refs/heads/main/starter/BACKLOG.md
+    subject: CDDW
+    description: Minimal, reusable starter setup for a project backlog in CDDW-aligned projects
+    role: supporting
+    priority: medium
+    status: active
